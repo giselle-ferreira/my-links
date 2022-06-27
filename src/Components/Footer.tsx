@@ -1,10 +1,9 @@
 import styled from "styled-components";
-import heartIMG from "src/assets/images/heart.svg"
 
 export function Footer() {
     return(
         <FooterApp>
-            Made with <img src={heartIMG} alt="" /> by Giselle Ferreira
+            Made with <img src='/media/heart.svg' alt="shaped heart" /> by Giselle Ferreira
         </FooterApp>
     )
 }

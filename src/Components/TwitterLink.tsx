@@ -1,12 +1,11 @@
 import styled from "styled-components";
 import { WrapperLink, Circle} from '../Styles';
-import twitterIMG from "src/assets/images/twitter.svg"
 
 export function TwitterLink() {
     return(
         <WrapperLink href="https://twitter.com/giferreira_dev" target="_blank">
             <CircleTwitter>            
-                <img src={twitterIMG} alt="" />         
+                <img src='/media/twitter.svg' alt="Twitter Icon" />         
             </CircleTwitter>
         </WrapperLink>
     )
