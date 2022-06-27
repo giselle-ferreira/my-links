@@ -5,12 +5,12 @@ export function Description() {
     return(
         <div>
             <Info>
-                <span><MapPin size={13} />Macaé - RJ - Brasil</span>
+                <span><MapPin size={14} />Macaé - RJ - Brasil</span>
                 <span>Desenvolvedora Front-end</span>
             </Info>
 
             <WhoAmI>
-                Desenvolvedora Front-end, traçando meu caminho em tech a cada novo código. 
+                Traçando meu caminho em tecnologia a cada novo código. 
             </WhoAmI>
         </div>
     )
@@ -19,7 +19,7 @@ export function Description() {
 const Info = styled.div`
     display: flex;
     flex-direction: column;
-    font-size: 12px;
+    font-size: 13px;
     justify-content: center;
     align-items: center;
     margin-top: 30px;
@@ -31,7 +31,7 @@ const WhoAmI = styled.span`
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 15px;
-    width: 302px;
+    font-size: 17px;
+    width: 300px;
     margin: 34px auto;
 `;

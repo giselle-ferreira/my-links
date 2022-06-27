@@ -42,6 +42,7 @@ export const SmallButton = styled.a`
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 
     &:hover {
         background: #504093;

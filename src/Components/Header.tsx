@@ -4,7 +4,7 @@ import styled from "styled-components";
 export function Header() {
     return(
         <HeaderBox>
-            <Title>Connect<LinkSimple size={22} color="#CBCBCB" /></Title>
+            <Title>Connect<LinkSimple size={24} color="#CBCBCB" /></Title>
             <ProfileImg src='/media/profile-picture.png' alt="Giselle's profile picture" width="60"/>
             <Circle></Circle>
         </HeaderBox>
@@ -15,7 +15,7 @@ const Title = styled.span`
     color: #fff;
     position: absolute;
     bottom: 55px;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 700;
     display: flex;
     align-items: unset;

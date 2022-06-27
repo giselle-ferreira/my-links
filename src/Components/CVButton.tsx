@@ -3,13 +3,13 @@ import { useState } from "react";
 import { SmallButton } from '../Styles';
 import styled from "styled-components"
 
+
 export function CVButton() {
 
     const [isHovering, setIsHovering] = useState(false); 
 
-
     return(
-        <CVDownloadBtn href="/src/assets/file/CV-Giselle Ferreira-Dev FrontEnd" download
+        <CVDownloadBtn href='/file/cv-giselleferreira-devfrontend.pdf' target='_blank' download
             onMouseEnter={() => setIsHovering(true)}
             onMouseLeave={() => setIsHovering(false)}
         >  
