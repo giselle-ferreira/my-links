@@ -1,11 +1,12 @@
 import { LinkSimple } from "phosphor-react";
-import styled from "styled-components"
+import styled from "styled-components";
+import profileIMG from "src/assets/images/profile-picture.png"
 
 export function Header() {
     return(
         <HeaderBox>
             <Title>Connect<LinkSimple size={22} color="#CBCBCB" /></Title>
-            <ProfileImg src="src/assets/images/profile-picture.png" alt="" width="60"/>
+            <ProfileImg src={profileIMG} alt="" width="60"/>
             <Circle></Circle>
         </HeaderBox>
     )
