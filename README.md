@@ -10,6 +10,10 @@ Project of a social-linking website, developed in React and Styled Components, m
 
 <br/>
 
+>## Deploy
+
+<br/>
+
 >## Demonstration
 
 #### Desktop
