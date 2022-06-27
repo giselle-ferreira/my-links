@@ -1,7 +1,20 @@
+// {
+//   "compilerOptions": {
+//     "composite": true,
+//     "module": "CommonJS",
+//     "moduleResolution": "node"
+//   },
+//   "include": ["vite.config.ts"]
+// }
+
 {
   "compilerOptions": {
     "composite": true,
-    "module": "esnext",
+    "target": "ES6",
+    "module": "CommonJS",
+    "outDir": "./out",
+    "rootDir": "./",
+    "strict": true,
     "moduleResolution": "node"
   },
   "include": ["vite.config.ts"]
