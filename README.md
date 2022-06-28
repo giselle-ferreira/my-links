@@ -1,12 +1,13 @@
 <p align="center">
-<img src="https://i.postimg.cc/Y9Wch5mx/connect-mylinks.png"/>
-<h2 align="center">(ReactApp)- My Links [Connect]</h2>
+<img src="https://i.postimg.cc/pTsDdZFP/mylinks.png"/>
+<h1 align="center">My Links</h1>
+<h3 align="center">(A React App)</h3>
 </p>
 
 <br/>
 
 >## About
-Project of a social-linking website, developed in React and Styled Components. I decided to create the project so I could focus on practicing with Styled-Components, but also so I could practice more with React, and its architecture.
+Project of a social-linking website, developed in React and Styled Components.<br/>I decided to create the project so I could focus on practicing with Styled-Components, but also so I could practice more with React, and its architecture.
 
 <br/>
 
@@ -17,13 +18,17 @@ https://my-links-giselle.vercel.app/
 
 >## Demonstration
 
-#### Desktop
 <p align="left">
-<img  src="" width="800" />
+<img  src="https://i.postimg.cc/htw4K7jN/mylinks.gif" />
 </p>
 
-#### Mobile
-<img  src="" width="310"/>
+<br />
+
+>### Desktop
+<img src="https://i.postimg.cc/8zwKvhWn/desktop.png" /> 
+
+>### Mobile
+<img src="https://i.postimg.cc/Pqx6QPQf/mobile.png" /> 
 
 <br/>
 
