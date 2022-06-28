@@ -1,10 +1,13 @@
 import styled from "styled-components";
 
 
+
 export const WrapperLink = styled.a`
     border: .2px solid #fff;
     border-radius: 4px; 
     padding: 37px;
+    position: relative;
+    text-decoration: none;
 
     &:hover {
         background: #fff;
@@ -15,6 +18,16 @@ export const WrapperLink = styled.a`
         transform: scale(.95);
         animation: 1.5s ease-in-out;
     }
+
+     p {
+      position: absolute;
+      font-size: 14px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      top: 88%;
+  }     
 `; 
 
 
@@ -25,6 +38,7 @@ export const Circle = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    
 
     ${WrapperLink}:hover & {        
         transform: scale(1.2);
@@ -43,6 +57,7 @@ export const SmallButton = styled.a`
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    text-decoration: none;
 
     &:hover {
         background: #504093;

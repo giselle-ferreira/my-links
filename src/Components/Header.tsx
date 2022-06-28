@@ -4,7 +4,7 @@ import styled from "styled-components";
 export function Header() {
     return(
         <HeaderBox>
-            <Title>Connect<LinkSimple size={24} color="#CBCBCB" /></Title>
+            <Title>MyLinks<LinkSimple size={24} color="#CBCBCB" /></Title>
             <ProfileImg src='/media/profile-picture.png' alt="Giselle's profile picture" width="60"/>
             <Circle></Circle>
         </HeaderBox>
