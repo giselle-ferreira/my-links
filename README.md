@@ -11,7 +11,7 @@ Project of a social-linking website, developed in React and Styled Components. I
 <br/>
 
 >## Deploy
-[My Links - Connect Website](https://my-links-giselle.vercel.app/)
+https://my-links-giselle.vercel.app/
 
 <br/>
 
