@@ -6,7 +6,7 @@
 <br/>
 
 >## About
-Project of a social-linking website, developed in React and Styled Components, mainly to get to know more about Styled-Components.
+Project of a social-linking website, developed in React and Styled Components. I decided to create the project so I could focus on practicing with Styled-Components, but also so I could practice more with React, and its architecture.
 
 <br/>
 
