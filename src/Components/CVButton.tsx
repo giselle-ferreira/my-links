@@ -13,7 +13,7 @@ export function CVButton() {
 
 
     return(
-        <CVDownloadBtn href='/file/CV-Giselle_Ferreira-Dev_FrontEnd.pdf' target='_blank' download
+        <CVDownloadBtn href='/file/cv-giselle-ferreira-dev-frontend.pdf' target='_blank' download
             onMouseEnter={() => setIsHovering(true)}
             onMouseLeave={() => setIsHovering(false)}
             onClick={message}
