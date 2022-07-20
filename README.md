@@ -12,7 +12,7 @@ Project of a social-linking website, developed in React and Styled Components.<b
 <br/>
 
 >## Deploy
-https://my-links-giselle.vercel.app/
+https://giselleslinks.vercel.app/
 
 <br/>
 
