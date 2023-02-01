@@ -9,10 +9,11 @@ export const GlobalStyle = createGlobalStyle`
     } 
 
     html {
-        height: 100vh;
+        background-size: cover;
     }
 
-    body {       
+    body {    
+        height: 100vh;   
         font-family: 'Nunito', sans-serif;
         background: linear-gradient(360deg, #0F0D1A 11.6%, #55439B 100%) no-repeat;
         color: #fff;

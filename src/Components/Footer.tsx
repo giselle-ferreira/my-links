@@ -13,7 +13,7 @@ const FooterApp = styled.div`
     justify-content: center;
     align-items: center;
     font-size: 12px;
-    margin-top: 64px;
+    margin: 64px auto 32px auto;
     color: #CBCBCB;  
    ;
 
