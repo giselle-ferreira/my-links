@@ -6,7 +6,7 @@ export function Description() {
         <div>
             <Info>
                 <span><MapPin size={14} />Macaé - RJ - Brasil</span>
-                <span>Desenvolvedora Front-end</span>
+                <span>Desenvolvedora de Software</span>
             </Info>
 
             <WhoAmI>

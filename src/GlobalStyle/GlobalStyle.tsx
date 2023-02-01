@@ -9,14 +9,14 @@ export const GlobalStyle = createGlobalStyle`
     } 
 
     html {
-        height: 100%;
+        height: 100vh;
     }
 
-    body {        
-        height: 100%; 
+    body {       
         font-family: 'Nunito', sans-serif;
         background: linear-gradient(360deg, #0F0D1A 11.6%, #55439B 100%) no-repeat;
         color: #fff;
+        background-size: cover;
     }
 `;
 
