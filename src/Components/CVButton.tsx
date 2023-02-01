@@ -2,21 +2,21 @@ import { DownloadSimple, FileText } from "phosphor-react"
 import { useState } from "react";
 import { SmallButton } from '../Styles';
 import styled from "styled-components";
-import { ToastContainer, toast } from 'react-toastify';
+// import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 
 export function CVButton() {
 
     const [isHovering, setIsHovering] = useState(false); 
-    const message = () => toast.success('Download Realizado!', { theme: 'colored' })
+    // const message = () => toast.success('Download Realizado!', { theme: 'colored' })
 
 
     return(
-        <CVDownloadBtn href='/file/cv-giselle-ferreira-dev-frontend.pdf' target='_blank' download="cv-giselleferreira-frontend"
+        <CVDownloadBtn href='/file/cv-giselle-ferreira-dev-frontend.pdf' target='_blank' 
             onMouseEnter={() => setIsHovering(true)}
             onMouseLeave={() => setIsHovering(false)}
-            onClick={message}
+            // onClick={message}
         >  
             { isHovering ? (
                 <DownloadSimple size={32} color="#fff" />                
@@ -24,11 +24,11 @@ export function CVButton() {
                 <span>CV <FileText size={28} color="#fff" /></span>
             ) } 
 
-        <ToastContainer
+        {/* <ToastContainer
         position="top-center"
         autoClose={1000}
         hideProgressBar={false}
-        />        
+        />         */}
                         
         </CVDownloadBtn>
     )
