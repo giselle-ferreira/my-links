@@ -10,6 +10,7 @@ export const GlobalStyle = createGlobalStyle`
 
     html {
         background-size: cover;
+        height: 100%; 
     }
 
     body {    
