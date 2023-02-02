@@ -12,9 +12,9 @@ const FooterApp = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 12px;
-    margin: 64px auto 32px auto;
+    font-size: 12px;    
     color: #CBCBCB;  
+    margin-bottom: 32px;
    ;
 
     img {

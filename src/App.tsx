@@ -14,7 +14,7 @@ function App() {
   
 
   return (
-    <div>
+    <Body>
       <Header />
       <Description />
 
@@ -31,13 +31,18 @@ function App() {
       </ContainerContact>
 
       <Footer />
-    </div>
+    </Body>
   )
 }
 
 export default App
 
 
+const Body = styled.div`
+  height: 100%;
+`;
+
 const ContainerContact = styled(ContainerLinks)`
   margin-top: 25px;
+  margin-bottom: 70px;
 `;
