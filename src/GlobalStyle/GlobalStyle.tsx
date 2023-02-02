@@ -5,13 +5,8 @@ export const GlobalStyle = createGlobalStyle`
     * {
         box-sizing: border-box;
         margin: 0;
-        padding: 0;               
-    } 
-
-    html {
-        background-size: cover;
-        height: 100%; 
-    }
+        padding: 0;            
+    }    
 
     body {    
         height: 100%;   
