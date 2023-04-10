@@ -25,10 +25,10 @@ https://giselleslinks.vercel.app/
 <br />
 
 >### Desktop
-<img src="https://i.postimg.cc/8zwKvhWn/desktop.png" /> 
+<img src="https://i.postimg.cc/TYXW7vvq/image.png" /> 
 
 >### Mobile
-<img src="https://i.postimg.cc/Pqx6QPQf/mobile.png" /> 
+<img src="https://i.postimg.cc/NFnCtG8M/image.png" /> 
 
 <br/>
 
@@ -40,7 +40,6 @@ https://giselleslinks.vercel.app/
 </p>
 
 <br/>
-
 
 > ## Author 👋
 
