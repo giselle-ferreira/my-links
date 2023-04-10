@@ -1,0 +1,51 @@
+[
+    {
+        "social": "instagram",
+        "link": "https://www.instagram.com/giselletech/",
+        "description": "Instagram",
+        "img": "/media/instagram.svg"
+    },
+    {
+        "social": "linkedin",
+        "link": "https://linkedin.com/in/giselleferreiras",
+        "description": "Linkedin",
+        "img": "/media/linkedin.svg"
+    },
+    {
+        "social": "github",
+        "link": "https://github.com/giselle-ferreira",
+        "description": "Github",
+        "img": "/media/github.svg"
+    },
+    {
+        "social": "discord",
+        "link": "https://discordapp.com/users/781661938795020290/",
+        "description": "Discord",
+        "img": "/media/discord.svg"
+    },
+    {
+        "social": "twitter",
+        "link": "https://twitter.com/giferreira_dev",
+        "description": "Twitter",
+        "img": "/media/twitter.svg"
+    },
+    {
+        "social": "medium",
+        "link": "https://medium.com/@giselle-ferreira",
+        "description": "medium",
+        "img": "/media/medium.svg"
+    },
+    {
+        "social": "email",
+        "link": "mailto:giselle.fs@gmail.com",
+        "description": "email",
+        "img": "/media/email.svg"
+    },
+    {
+        "social": "cv",
+        "link": "/file/CV_GiselleFerreira_SoftwareDev.pdf",
+        "description": "CV",
+        "img": "/media/download.svg"
+    }
+
+]
