@@ -30,10 +30,10 @@
         "img": "/media/twitter.svg"
     },
     {
-        "social": "medium",
-        "link": "https://medium.com/@giselle-ferreira",
-        "description": "medium",
-        "img": "/media/medium.svg"
+        "social": "dev.to",
+        "link": "https://dev.to/giselletech/",
+        "description": "dev.to",
+        "img": "/media/devto.svg"
     },
     {
         "social": "email",
