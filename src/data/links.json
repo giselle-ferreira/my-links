@@ -18,6 +18,12 @@
         "img": "/media/github.svg"
     },
     {
+        "social": "Perfil DIO",
+        "link": "https://www.dio.me/users/giselle_fs",
+        "description": "Dio",
+        "img": "/media/dio.svg"
+    },
+    {
         "social": "discord",
         "link": "https://discordapp.com/users/781661938795020290/",
         "description": "Discord",
@@ -47,5 +53,4 @@
         "description": "CV",
         "img": "/media/download.svg"
     }
-
 ]
