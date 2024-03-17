@@ -55,7 +55,7 @@ export const Contact = () => {
         <Container>
             <h2>Contato</h2>
             <section>
-                <form action="" onSubmit={sendEmail}>
+                <form onSubmit={sendEmail}>
                     <label htmlFor="">Nome</label>
                     <input type="text"
                         placeholder='Digite seu nome'
