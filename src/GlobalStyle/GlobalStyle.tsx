@@ -15,11 +15,11 @@ export const GlobalStyle = createGlobalStyle`
         background-size: cover;
     }
 
-    @media (min-width: 1440px) {
+    /* @media (min-width: 1440px) {
         body {     
             height: 100vh;
         }
-      } 
+      }  */
 
     a {
         text-decoration: none;

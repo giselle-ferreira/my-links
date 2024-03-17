@@ -1,3 +1,4 @@
+import { Contact } from "./Components/Contact/Contact"
 import { Description } from "./Components/Description/Description"
 import { Divider } from "./Components/Divider/Divider"
 import { ExternalLinksContainer } from "./Components/ExternalLinksContainer/ExternalLinksContainer"
@@ -14,6 +15,7 @@ function App() {
       {/* <ExternalLinksContainer /> */}
       {/* <Divider /> */}
       <LinksContainer />
+      <Contact />
       <Footer />
     </>
   )
