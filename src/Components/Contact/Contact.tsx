@@ -30,7 +30,7 @@ export const Contact = () => {
             import.meta.env.SERVICE_ID,
             import.meta.env.TEMPLATE_ID,
             templateParams,
-            import.meta.env.CHAVE
+            import.meta.env.PUBLIC_KEY
         )
             .then((response: any) => {
                 console.log("Email enviado", response.status, response.text)
