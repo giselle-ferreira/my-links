@@ -26,9 +26,9 @@ export const Contact = () => {
             email: email
         }
 
-        const serviceId = import.meta.env.SERVICE_ID;
-        const templateId = import.meta.env.TEMPLATE_ID;
-        const publicKey = import.meta.env.PUBLIC_KEY;
+        const serviceId = import.meta.env.VITE_SERVICE_ID;
+        const templateId = import.meta.env.VITE_TEMPLATE_ID;
+        const publicKey = import.meta.env.VITE_PUBLIC_KEY;
 
         emailjs.send(serviceId, templateId, templateParams, publicKey)
             .then((response: any) => {
@@ -37,18 +37,26 @@ export const Contact = () => {
                 setEmail('')
                 setMessage('')
 
+                if (response.status === 200) {
+                    swal.fire({
+                        icon: "success",
+                        title: "Email Enviado Com Sucesso!",
+                        text: "Obrigada pelo contato. Retornarei em breve.",
+                        showConfirmButton: false,
+                        timer: 2000
+                    });
+                }
+
             }, (err) => {
                 console.error("ERRO: ", err)
-            })
+                swal.fire({
+                    icon: "error",
+                    text: "Ocorreu um erro no envio do email. Tente novamente mais tarde.",
+                });
 
-        swal.fire({
-            icon: "success",
-            title: "Email Enviado Com Sucesso!",
-            text: "Obrigada pelo contato. Retornarei em breve.",
-            showConfirmButton: false,
-            timer: 2000
-        });
+            })
     }
+
 
     return (
         <Container>

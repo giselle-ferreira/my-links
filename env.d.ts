@@ -3,7 +3,7 @@ interface ImportMeta {
 }
 
 interface ImportMetaEnv {
-    readonly SERVICE_ID: string;
-    readonly TEMPLATE_ID: string;
-    readonly PUBLIC_KEY: string;
+    readonly VITE_SERVICE_ID: string;
+    readonly VITE_TEMPLATE_ID: string;
+    readonly VITE_PUBLIC_KEY: string;
 }

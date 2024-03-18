@@ -18,10 +18,10 @@ export default defineConfig({
 //     react()
 //   ],
 //   define: {
-//     "process.env": process.env,
-//     SERVICE_ID: process.env.SERVICE_ID,
-//     TEMPLATE_ID: process.env.TEMPLATE_ID,
-//     CHAVE: process.env.CHAVE,
+//     "import.meta.env": import.meta.env,
+//     SERVICE_ID: import.meta.env.SERVICE_ID,
+//     TEMPLATE_ID: import.meta.TEMPLATE_ID,
+//     PUBLIC_KEY: import.meta.PUBLIC_KEY,
 //   },
 // })
 
