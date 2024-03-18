@@ -26,12 +26,11 @@ export const Contact = () => {
             email: email
         }
 
-        emailjs.send(
-            import.meta.env.SERVICE_ID,
-            import.meta.env.TEMPLATE_ID,
-            templateParams,
-            import.meta.env.PUBLIC_KEY
-        )
+        const serviceId = import.meta.env.SERVICE_ID;
+        const templateId = import.meta.env.TEMPLATE_ID;
+        const publicKey = import.meta.env.PUBLIC_KEY;
+
+        emailjs.send(serviceId, templateId, templateParams, publicKey)
             .then((response: any) => {
                 console.log("Email enviado", response.status, response.text)
                 setName('')
