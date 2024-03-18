@@ -9,7 +9,7 @@ export const Description = () => {
         <span>Desenvolvedora de Software</span>
       </section>
 
-      <p>Explorando os horizontes da tecnologia a cada nova linha de código, em uma jornada diária de descobertas e inovações.</p>
+      <p>Explorando os horizontes da tecnologia a cada nova linha de código.</p>
     </Container>
   )
 }

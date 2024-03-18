@@ -42,12 +42,6 @@
         "img": "/media/devto.svg"
     },
     {
-        "social": "email",
-        "link": "mailto:giselle.fs@gmail.com",
-        "description": "email",
-        "img": "/media/email.svg"
-    },
-    {
         "social": "cv",
         "link": "/file/CV_GiselleFerreira_SoftwareDev.pdf",
         "description": "CV",

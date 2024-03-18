@@ -7,6 +7,10 @@ export const Container = styled.div`
     justify-content: center;
     align-items: center;
 
+    h2 {
+        font-size: 1.7em;
+    }
+
     section form {
         display: flex;
         flex-direction: column;
@@ -17,7 +21,8 @@ export const Container = styled.div`
         width: 32em;
 
         label {
-            margin: 1.1em 0 .6em 0;
+            margin: 1.2em 0 .6em 0;
+            font-size: 1.1em;
         }
 
         @media (max-width: 500px) {
@@ -27,23 +32,24 @@ export const Container = styled.div`
         input[type="text"],
         input[type="email"]
          {
-            height: 2.5em;
+            height: 2.8em;
             outline: none;
-            font-size: 1em;
+            font-size: 1.1em;
             padding: .5em;
             border-radius: .3em;
         }
 
         textarea {
-            height: 7em;
+            height: 8em;
             padding: .5em;
             outline: none;
+            font-size: 1.1em;
         }
 
         input[type="submit"] {
             margin-top: 1.1em;
-            height: 2.5em;
-            width: 8em;
+            height: 2.8em;
+            width: 9em;
             margin: 1.1em auto;
             cursor: pointer;
             border: .2px solid #fff;
