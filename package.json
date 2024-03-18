@@ -15,7 +15,8 @@
     "react-router-dom": "^6.3.0",
     "react-toastify": "^9.0.5",
     "styled-components": "^5.3.5",
-    "sweetalert2": "^11.10.6"
+    "sweetalert2": "^11.10.6",
+    "vite-plugin-env-compatible": "^2.0.1"
   },
   "devDependencies": {
     "@import-meta-env/unplugin": "^0.5.1",
