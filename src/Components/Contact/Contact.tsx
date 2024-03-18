@@ -27,10 +27,10 @@ export const Contact = () => {
         }
 
         emailjs.send(
-            import.meta.env.EV_SERVICE_ID,
-            import.meta.env.EV_TEMPLATE_ID,
+            import.meta.env.SERVICE_ID,
+            import.meta.env.TEMPLATE_ID,
             templateParams,
-            import.meta.env.EV_PUBLIC_KEY
+            import.meta.env.CHAVE
         )
             .then((response: any) => {
                 console.log("Email enviado", response.status, response.text)
