@@ -5,7 +5,7 @@ export const Description = () => {
   return (
     <Container>
       <section>
-        <span><MapPin size={14} /> Macaé &#183; RJ &#183; Brasil</span>
+        <span><MapPin size={14} /> Brasil</span>
         <span>Desenvolvedora de Software</span>
       </section>
 
