@@ -1,6 +1,6 @@
 import { LinkSimple } from "phosphor-react";
 import { Container } from './style'
-import profilePicture from '/media/profile-picture.png'
+import profilePicture from '/media/profile-picture.jpg'
 
 export const Header = () => {
   return (
