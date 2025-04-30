@@ -37,6 +37,7 @@ export const Container = styled.div`
         position: absolute;
         z-index: 1;
         bottom: -.7em;
+        border-radius: 50%;
     }
 
     span {
