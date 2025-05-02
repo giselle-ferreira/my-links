@@ -19,6 +19,7 @@ export const Container = styled.div`
         line-height: 1.3em;
         color: #cbcbcb;
         width: 32em;
+        /* outline: none; */
 
         label {
             margin: 1.2em 0 .6em 0;
@@ -33,33 +34,37 @@ export const Container = styled.div`
         input[type="email"]
          {
             height: 2.8em;
-            outline: none;
+            /* outline: none; */
             font-size: 1.1em;
             padding: .5em;
             border-radius: .3em;
+            border: none;
         }
 
         textarea {
             height: 8em;
             padding: .5em;
-            outline: none;
             font-size: 1.1em;
+            border: none;
         }
 
         input[type="submit"] {
-            margin-top: 1.1em;
+            margin-top: 1.2em;
             height: 2.8em;
-            width: 9em;
+            width: 100%;
             margin: 1.1em auto;
             cursor: pointer;
-            border: .2px solid #fff;
-            background: transparent;
+            border: none;
+            outline: none;
+            background: #28A745;
             color: #fff;
+            border-radius: .2em;
+            font-weight: 700;
         }
 
         input[type="submit"]:hover {
             background: #211b3c;            
-            /* background: #fff;             */
+            color: #fff;
         }
 
         button:active {

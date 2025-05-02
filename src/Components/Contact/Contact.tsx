@@ -85,7 +85,7 @@ export const Contact = () => {
                         onChange={(e) => setMessage(e.target.value)}
                         value={message}
                     />
-                    <input type="submit" value="Enviar" />
+                    <input type="submit" value="ENVIAR" />
                 </form>
             </section>
         </Container>

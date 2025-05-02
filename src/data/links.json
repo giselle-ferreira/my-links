@@ -24,18 +24,6 @@
         "img": "/media/dio.svg"
     },
     {
-        "social": "discord",
-        "link": "https://discordapp.com/users/781661938795020290/",
-        "description": "Discord",
-        "img": "/media/discord.svg"
-    },
-    {
-        "social": "twitter",
-        "link": "https://twitter.com/giferreira_dev",
-        "description": "Twitter",
-        "img": "/media/twitter.svg"
-    },
-    {
         "social": "dev.to",
         "link": "https://dev.to/giselletech/",
         "description": "dev.to",

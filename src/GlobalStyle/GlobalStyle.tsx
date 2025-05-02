@@ -10,7 +10,8 @@ export const GlobalStyle = createGlobalStyle`
 
     body {     
         height: 100%;
-        background: linear-gradient(360deg, #0F0D1A 11.6%, #55439B 100%) no-repeat;
+        background-image: url("/media/bg-network-connection.jpg");
+        /* background-image: url("/media/gradient-background.jpg"); */
         color: #fff;
         background-size: cover;
     }

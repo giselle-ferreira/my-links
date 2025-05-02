@@ -13,13 +13,15 @@ export const Container = styled.div`
         color: #cbcbcb;
     }
 
-    p {
+    div {
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: center;
-        font-size: 1.1em;
-        width: 18.5em;
+        font-size: 1em;
+        width: 27em;
         margin: 2.1em auto;
+        gap: 1em;
     }
 `;

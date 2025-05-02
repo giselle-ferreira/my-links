@@ -4,7 +4,7 @@ import heart from '/media/heart.svg'
 export const Footer = () => {
   return (
     <Container>
-      Made with <img src={heart} alt="Ícone de coração" /> by <a href="https://giselleslinks.vercel.app">Giselle Ferreira</a>
+      Made with <img src={heart} alt="Ícone de coração" /> by <a href="https://www.linkedin.com/in/giselleferreiras" target='_blank'>Giselle Ferreira</a>
     </Container>
   )
 }

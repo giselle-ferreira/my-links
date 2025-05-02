@@ -9,7 +9,10 @@ export const Description = () => {
         <span>Desenvolvedora de Software</span>
       </section>
 
-      <p>Explorando os horizontes da tecnologia a cada nova linha de código.</p>
+      <div>
+        <span>Desenvolvedora de software com mais de 2 anos de experiência com foco em Java. Venho me especializando no desenvolvimento de APIs, microsserviços e soluções escaláveis.</span>
+        <span>Atuo, principalmente, em projetos nos setores bancário e de seguros. Com foco em performance, qualidade de código e boas práticas, estou em constante evolução técnica e sempre em busca de novos desafios.</span>
+      </div>
     </Container>
   )
 }
