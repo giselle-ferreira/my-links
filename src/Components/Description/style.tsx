@@ -20,7 +20,8 @@ export const Container = styled.div`
         align-items: center;
         text-align: center;
         font-size: 1em;
-        width: 27em;
+        width: 18.5em;
+        text-align: justify;
         margin: 2.1em auto;
         gap: 1em;
     }
