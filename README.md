@@ -1,5 +1,4 @@
 <p align="center">
-<img src="https://i.postimg.cc/pTsDdZFP/mylinks.png"/>
 <h1 align="center">My Links</h1>
 <h3 align="center">(A React App)</h3>
 </p>
@@ -12,23 +11,14 @@ Project of a social-linking website, developed in React and Styled Components.<b
 <br/>
 
 >## Deploy
-https://giselleslinks.vercel.app/
+https://giselletech.vercel.app/
 
 <br/>
 
->## Demonstration
+>## Layout
 
-<p align="left">
-<img  src="https://i.postimg.cc/htw4K7jN/mylinks.gif" />
-</p>
-
-<br />
-
->### Desktop
-<img src="https://i.postimg.cc/TYXW7vvq/image.png" /> 
-
->### Mobile
-<img src="https://i.postimg.cc/NFnCtG8M/image.png" /> 
+![image](https://github.com/user-attachments/assets/424babfa-25cb-4d0d-9257-d7a649b4e696)
+![image](https://github.com/user-attachments/assets/2892db7d-ac54-44bf-a494-810ec5a19bea)
 
 <br/>
 
