@@ -20,17 +20,17 @@ export const Container = styled.div`
         bottom: 3.45em;
         
         h1 {                       
-            font-size: 1.2em;
+            font-size: .8em;
             font-weight: 400;
             text-align: center;
             margin-bottom: 0;
         }
 
         h2 {
-            font-size: 1em;
+            font-size: 1.2em;
             font-weight: 700;
             text-align: center;
-            margin-bottom: .4em;
+            margin-bottom: 1.3em;
         }
     }
 
@@ -49,9 +49,9 @@ export const Container = styled.div`
 
     span {
         position: absolute;
-        width: 86px;
-        height: 86px;
-        background-color: #2c1830;
+        width: 110px;
+        height: 110px;
+        background-color: #241035;
         border-radius: 50%;
         box-shadow: 0px 15px 15px -15px #111;
         z-index: -2;
